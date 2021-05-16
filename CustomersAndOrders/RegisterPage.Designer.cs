@@ -34,11 +34,11 @@ namespace CustomersAndOrders
             this.addressLabel = new System.Windows.Forms.Label();
             this.EmailLabel = new System.Windows.Forms.Label();
             this.PasswordLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.FullnameTextBox = new System.Windows.Forms.TextBox();
+            this.PhoneNumberTextBox = new System.Windows.Forms.TextBox();
+            this.EmailTextBox = new System.Windows.Forms.TextBox();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.AddressTextBox = new System.Windows.Forms.TextBox();
             this.SendButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -92,50 +92,50 @@ namespace CustomersAndOrders
             this.PasswordLabel.TabIndex = 4;
             this.PasswordLabel.Text = "Enter password___________";
             // 
-            // textBox1
+            // FullnameTextBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(443, 19);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(10);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(716, 44);
-            this.textBox1.TabIndex = 5;
+            this.FullnameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FullnameTextBox.Location = new System.Drawing.Point(443, 19);
+            this.FullnameTextBox.Margin = new System.Windows.Forms.Padding(10);
+            this.FullnameTextBox.Name = "FullnameTextBox";
+            this.FullnameTextBox.Size = new System.Drawing.Size(716, 44);
+            this.FullnameTextBox.TabIndex = 5;
             // 
-            // textBox2
+            // PhoneNumberTextBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(443, 83);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(10);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(716, 44);
-            this.textBox2.TabIndex = 6;
+            this.PhoneNumberTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PhoneNumberTextBox.Location = new System.Drawing.Point(443, 83);
+            this.PhoneNumberTextBox.Margin = new System.Windows.Forms.Padding(10);
+            this.PhoneNumberTextBox.Name = "PhoneNumberTextBox";
+            this.PhoneNumberTextBox.Size = new System.Drawing.Size(716, 44);
+            this.PhoneNumberTextBox.TabIndex = 6;
             // 
-            // textBox3
+            // EmailTextBox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox3.Location = new System.Drawing.Point(443, 211);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(10);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(716, 44);
-            this.textBox3.TabIndex = 7;
+            this.EmailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.EmailTextBox.Location = new System.Drawing.Point(443, 211);
+            this.EmailTextBox.Margin = new System.Windows.Forms.Padding(10);
+            this.EmailTextBox.Name = "EmailTextBox";
+            this.EmailTextBox.Size = new System.Drawing.Size(716, 44);
+            this.EmailTextBox.TabIndex = 7;
             // 
-            // textBox4
+            // PasswordTextBox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox4.Location = new System.Drawing.Point(443, 275);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(10);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(716, 44);
-            this.textBox4.TabIndex = 8;
+            this.PasswordTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PasswordTextBox.Location = new System.Drawing.Point(443, 275);
+            this.PasswordTextBox.Margin = new System.Windows.Forms.Padding(10);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.Size = new System.Drawing.Size(716, 44);
+            this.PasswordTextBox.TabIndex = 8;
             // 
-            // textBox5
+            // AddressTextBox
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox5.Location = new System.Drawing.Point(443, 147);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(10);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(716, 44);
-            this.textBox5.TabIndex = 9;
+            this.AddressTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AddressTextBox.Location = new System.Drawing.Point(443, 147);
+            this.AddressTextBox.Margin = new System.Windows.Forms.Padding(10);
+            this.AddressTextBox.Name = "AddressTextBox";
+            this.AddressTextBox.Size = new System.Drawing.Size(716, 44);
+            this.AddressTextBox.TabIndex = 9;
             // 
             // SendButton
             // 
@@ -146,6 +146,7 @@ namespace CustomersAndOrders
             this.SendButton.TabIndex = 10;
             this.SendButton.Text = "Send";
             this.SendButton.UseVisualStyleBackColor = true;
+            this.SendButton.Click += new System.EventHandler(this.SendButton_Click);
             // 
             // RegisterPage
             // 
@@ -153,11 +154,11 @@ namespace CustomersAndOrders
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1178, 446);
             this.Controls.Add(this.SendButton);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.AddressTextBox);
+            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.EmailTextBox);
+            this.Controls.Add(this.PhoneNumberTextBox);
+            this.Controls.Add(this.FullnameTextBox);
             this.Controls.Add(this.PasswordLabel);
             this.Controls.Add(this.EmailLabel);
             this.Controls.Add(this.addressLabel);
@@ -177,11 +178,11 @@ namespace CustomersAndOrders
         private System.Windows.Forms.Label addressLabel;
         private System.Windows.Forms.Label EmailLabel;
         private System.Windows.Forms.Label PasswordLabel;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox FullnameTextBox;
+        private System.Windows.Forms.TextBox PhoneNumberTextBox;
+        private System.Windows.Forms.TextBox EmailTextBox;
+        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.TextBox AddressTextBox;
         private System.Windows.Forms.Button SendButton;
     }
 }

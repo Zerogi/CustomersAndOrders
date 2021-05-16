@@ -17,9 +17,16 @@ namespace CustomersAndOrders
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Open register page.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void RegisterButton_Click(object sender, EventArgs e)
         {
-
+            Form regForm = new RegisterPage();
+            regForm.ShowDialog();
+            this.Close();
         }
     }
 }
